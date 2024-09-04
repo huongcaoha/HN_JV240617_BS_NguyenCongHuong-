@@ -1,5 +1,7 @@
 package ra.presentation;
 
+import ra.business.design.CatalogManagement;
+import ra.business.design.ProductManagement;
 import ra.common.IMethod;
 
 public class BookManagement {
@@ -14,6 +16,7 @@ public class BookManagement {
             switch (choice){
                 case 1 : {
                     CatalogManagement.main(args);
+                    break;
                 }
                 case 2 : {
                     ProductManagement.main(args);

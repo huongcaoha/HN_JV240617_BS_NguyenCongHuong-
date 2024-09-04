@@ -1,4 +1,4 @@
-package ra.presentation;
+package ra.business.design;
 
 import ra.business.design.ProductFeature;
 import ra.business.entity.Product;
